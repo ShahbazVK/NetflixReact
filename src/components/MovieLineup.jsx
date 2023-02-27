@@ -28,8 +28,8 @@ export const MovieLineup = (props) => {
                     {
                         dataName.map((el, key) => {
                             return (
-                                <Carousel.Item>
-                                    <img key={key} src={el.link} className='h-36 lg:h-36 sm:h-96' />
+                                <Carousel.Item key={key}>
+                                    <img src={el.link} className='h-36 lg:h-36 sm:h-96' />
                                 </Carousel.Item>
                             )
                         })

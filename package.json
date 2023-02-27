@@ -1,15 +1,19 @@
 {
   "name": "netflix",
+  "homepage": "https://shahbazvk.github.io/netflixreact",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview"
   },
   "dependencies": {
     "bootstrap": "^5.2.3",
+    "gh-pages": "^5.0.0",
     "postcss-flexbugs-fixes": "^5.0.2",
     "postcss-normalize": "^10.0.1",
     "postcss-preset-env": "^8.0.1",
