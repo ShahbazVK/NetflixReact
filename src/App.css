@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+Link{
+    text-decoration: none;
+}
+ul li{
+    margin-right: 20px;
+}
+.carousel-image{
+    /* height: 150px; */
+}
+.movie{
+    padding-left: 2vw;
+    padding-right: 2vw;
+    margin-bottom: 30px;
+}
+a:-webkit-any-link {
+    text-decoration: none;
+}
